@@ -4,18 +4,18 @@ ADDED from /Users/wang/WorkPlace/Work/Immersive/app/src/main/AndroidManifest.xml
 INJECTED from /Users/wang/WorkPlace/Work/Immersive/app/src/main/AndroidManifest.xml:2:1-21:12
 INJECTED from /Users/wang/WorkPlace/Work/Immersive/app/src/main/AndroidManifest.xml:2:1-21:12
 INJECTED from /Users/wang/WorkPlace/Work/Immersive/app/src/main/AndroidManifest.xml:2:1-21:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/76364baec1936610addeb66934ed684a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f96bb758a6acfe261a7c29b61a43d938/AndroidManifest.xml:17:1-22:12
 MERGED from [:immersive] /Users/wang/WorkPlace/Work/Immersive/immersive/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/38790ccbc237e24e488c99752ca1ff9c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/ba8ecc33fb966da5e5c644a8fcbabd49/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/eb456fbea884ddc05261542cca8ac329/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/4457d85372136f393f1ad4649f2a9bce/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/e0417b0971dde47f7f6493de7bd0043a/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/92cb6a228854bc35f2656316d2c3ca13/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/6ccbb96d988db368bad04c441cbad0c1/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/a5b2dc978be69b0c27b515fd7eee4aa3/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/199ac161bc07e138141c088fe00fb345/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b689aae0eb06f8e8b6e096e4cc4f7d91/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/50c4fa38342218168ba643b2d082f7b7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/da024ad92d95a0015a451e919d8b5114/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/46ef54f20c251a2e8f4be3f25e9e924b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e9f794aa3105c716fa9a724f07cac13a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/8daa310bc13f1f1a189c0881730afa86/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8206ef3eb01e2fea1a8725db0799dd45/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/2e6c61d21256c3dbab81709df50ecbaa/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/187ed84ea9828c4b74303d4e25014d8f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/658710db31a4ce2806e24d97fde8b01e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/379c8b30e5aa47fcc562e563d2c3acbc/AndroidManifest.xml:17:1-22:12
 INJECTED from /Users/wang/WorkPlace/Work/Immersive/app/src/main/AndroidManifest.xml:2:1-21:12
 INJECTED from /Users/wang/WorkPlace/Work/Immersive/app/src/main/AndroidManifest.xml:2:1-21:12
 INJECTED from /Users/wang/WorkPlace/Work/Immersive/app/src/main/AndroidManifest.xml:2:1-21:12
@@ -65,30 +65,30 @@ uses-sdk
 INJECTED from /Users/wang/WorkPlace/Work/Immersive/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/wang/WorkPlace/Work/Immersive/app/src/main/AndroidManifest.xml
 INJECTED from /Users/wang/WorkPlace/Work/Immersive/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/76364baec1936610addeb66934ed684a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/76364baec1936610addeb66934ed684a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f96bb758a6acfe261a7c29b61a43d938/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f96bb758a6acfe261a7c29b61a43d938/AndroidManifest.xml:20:5-44
 MERGED from [:immersive] /Users/wang/WorkPlace/Work/Immersive/immersive/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
 MERGED from [:immersive] /Users/wang/WorkPlace/Work/Immersive/immersive/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/38790ccbc237e24e488c99752ca1ff9c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/38790ccbc237e24e488c99752ca1ff9c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/ba8ecc33fb966da5e5c644a8fcbabd49/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/ba8ecc33fb966da5e5c644a8fcbabd49/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/eb456fbea884ddc05261542cca8ac329/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/eb456fbea884ddc05261542cca8ac329/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/4457d85372136f393f1ad4649f2a9bce/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/4457d85372136f393f1ad4649f2a9bce/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/e0417b0971dde47f7f6493de7bd0043a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/e0417b0971dde47f7f6493de7bd0043a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/92cb6a228854bc35f2656316d2c3ca13/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/92cb6a228854bc35f2656316d2c3ca13/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/6ccbb96d988db368bad04c441cbad0c1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/6ccbb96d988db368bad04c441cbad0c1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/a5b2dc978be69b0c27b515fd7eee4aa3/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/a5b2dc978be69b0c27b515fd7eee4aa3/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/199ac161bc07e138141c088fe00fb345/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/199ac161bc07e138141c088fe00fb345/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b689aae0eb06f8e8b6e096e4cc4f7d91/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b689aae0eb06f8e8b6e096e4cc4f7d91/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/50c4fa38342218168ba643b2d082f7b7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/50c4fa38342218168ba643b2d082f7b7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/da024ad92d95a0015a451e919d8b5114/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/da024ad92d95a0015a451e919d8b5114/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/46ef54f20c251a2e8f4be3f25e9e924b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/46ef54f20c251a2e8f4be3f25e9e924b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e9f794aa3105c716fa9a724f07cac13a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e9f794aa3105c716fa9a724f07cac13a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/8daa310bc13f1f1a189c0881730afa86/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/8daa310bc13f1f1a189c0881730afa86/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8206ef3eb01e2fea1a8725db0799dd45/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8206ef3eb01e2fea1a8725db0799dd45/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/2e6c61d21256c3dbab81709df50ecbaa/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/2e6c61d21256c3dbab81709df50ecbaa/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/187ed84ea9828c4b74303d4e25014d8f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/187ed84ea9828c4b74303d4e25014d8f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/658710db31a4ce2806e24d97fde8b01e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/658710db31a4ce2806e24d97fde8b01e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/379c8b30e5aa47fcc562e563d2c3acbc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/379c8b30e5aa47fcc562e563d2c3acbc/AndroidManifest.xml:20:5-44
 INJECTED from /Users/wang/WorkPlace/Work/Immersive/app/src/main/AndroidManifest.xml
 INJECTED from /Users/wang/WorkPlace/Work/Immersive/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
