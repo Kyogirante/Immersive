@@ -1,1 +1,0 @@
-int color immersive_gray 0x7f060001

@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config=":immersive"><source path="/Users/wang/WorkPlace/Work/Immersive/immersive/build/intermediates/packagedAssets/release"/></dataSet><dataSet config="main"><source path="/Users/wang/WorkPlace/Work/Immersive/app/src/main/assets"/><source path="/Users/wang/WorkPlace/Work/Immersive/app/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/Users/wang/WorkPlace/Work/Immersive/app/src/release/assets"/></dataSet></merger>
