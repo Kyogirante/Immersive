@@ -1,2 +1,2 @@
 com.android.immersive
-color immersive_gray
+int color immersive_gray 0x7f060001

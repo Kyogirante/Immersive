@@ -1,0 +1,4 @@
+#Sat Oct 12 18:47:18 CST 2019
+base.0=/Users/wang/WorkPlace/Work/Immersive/app/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex
