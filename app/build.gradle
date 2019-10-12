@@ -22,6 +22,6 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "com.android.support:appcompat-v7:${SUPPORT_LIBRARY_VERSION}"
-    implementation project(':immersive')
-//    implementation "com.android.kyo:immersive:0.0.1"
+//    implementation project(':immersive')
+    implementation "com.android.kyo:immersive:0.0.1"
 }
