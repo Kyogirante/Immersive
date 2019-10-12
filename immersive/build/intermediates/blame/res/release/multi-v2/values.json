@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/wang/WorkPlace/Work/Immersive/immersive/build/intermediates/res/merged/release/values/values.xml",
+            "outputFile": "/Users/wang/WorkPlace/Work/Immersive/immersive/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/wang/WorkPlace/Work/Immersive/immersive/src/main/res/values/colors.xml",
@@ -23,7 +23,7 @@
             ]
         },
         {
-            "outputFile": "/Users/wang/WorkPlace/Work/Immersive/immersive/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/wang/WorkPlace/Work/Immersive/immersive/build/intermediates/res/merged/release/values/values.xml",
             "map": [
                 {
                     "source": "/Users/wang/WorkPlace/Work/Immersive/immersive/src/main/res/values/colors.xml",

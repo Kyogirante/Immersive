@@ -9,7 +9,7 @@ public interface ImmersiveAssist {
   /**
    * 获取属性刷新器.
    *
-   * @return
+   * @return 返回属性刷新器.
    */
   ImmersiveAttribute.Refresher getAttributeRefresher();
 

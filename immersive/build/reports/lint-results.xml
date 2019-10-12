@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<issues format="4" by="lint 3.2.1">
+<issues format="4" by="lint 3.1.0">
 
     <issue
         id="DefaultLocale"
@@ -44,7 +44,7 @@
         category="Correctness"
         priority="6"
         summary="Using Private APIs"
-        explanation="Using reflection to access hidden/private Android APIs is not safe; it will often not work on devices from other vendors, and it may suddenly stop working (if the API is removed) or crash spectacularly (if the API behavior changes, since there are no guarantees for compatibility)."
+        explanation="Using reflection to access hidden/private Android APIs is not safe; it will often not work on \&#xA;devices from other vendors, and it may suddenly stop working (if the API is removed) or crash \&#xA;spectacularly (if the API behavior changes, since there are no guarantees for compatibility)."
         errorLine1="        Class&lt;?> layoutParams = Class.forName(&quot;android.view.MiuiWindowManager$LayoutParams&quot;);"
         errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
@@ -60,7 +60,7 @@
         category="Correctness"
         priority="6"
         summary="Using Private APIs"
-        explanation="Using reflection to access hidden/private Android APIs is not safe; it will often not work on devices from other vendors, and it may suddenly stop working (if the API is removed) or crash spectacularly (if the API behavior changes, since there are no guarantees for compatibility)."
+        explanation="Using reflection to access hidden/private Android APIs is not safe; it will often not work on \&#xA;devices from other vendors, and it may suddenly stop working (if the API is removed) or crash \&#xA;spectacularly (if the API behavior changes, since there are no guarantees for compatibility)."
         errorLine1="      Class&lt;?> sysClass = Class.forName(&quot;android.os.SystemProperties&quot;);"
         errorLine2="                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
@@ -76,7 +76,7 @@
         category="Correctness"
         priority="6"
         summary="Using Private APIs"
-        explanation="Using reflection to access hidden/private Android APIs is not safe; it will often not work on devices from other vendors, and it may suddenly stop working (if the API is removed) or crash spectacularly (if the API behavior changes, since there are no guarantees for compatibility)."
+        explanation="Using reflection to access hidden/private Android APIs is not safe; it will often not work on \&#xA;devices from other vendors, and it may suddenly stop working (if the API is removed) or crash \&#xA;spectacularly (if the API behavior changes, since there are no guarantees for compatibility)."
         errorLine1="        Class&lt;?> layoutParams = Class.forName(&quot;android.view.MiuiWindowManager$LayoutParams&quot;);"
         errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location

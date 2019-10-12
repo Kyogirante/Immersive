@@ -4,7 +4,7 @@
             "outputFile": "/Users/wang/WorkPlace/Work/Immersive/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ne/values-ne.xml",
             "map": [
                 {
-                    "source": "/Users/wang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f96bb758a6acfe261a7c29b61a43d938/res/values-ne/values-ne.xml",
+                    "source": "/Users/wang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/94d01854cff191409bd0c1385011ab88/res/values-ne/values-ne.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/wang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8206ef3eb01e2fea1a8725db0799dd45/res/values-ne/values-ne.xml",
+                    "source": "/Users/wang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/83e348d51952763ff9e787178294716b/res/values-ne/values-ne.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

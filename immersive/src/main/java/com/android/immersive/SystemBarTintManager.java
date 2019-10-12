@@ -23,7 +23,7 @@ import android.view.WindowManager;
 import android.widget.FrameLayout.LayoutParams;
 
 /**
- * Copy from {@see https://github.com/jgilfelt/SystemBarTint}
+ * Copy from https://github.com/jgilfelt/SystemBarTint
  *
  * Class to manage status and navigation bar tint effects when using KitKat
  * translucent system UI modes.
@@ -126,8 +126,8 @@ public class SystemBarTintManager {
   /**
    * set status bar darkmode
    *
-   * @param darkmode
-   * @param activity
+   * @param darkmode darkmode
+   * @param activity activity
    */
   public void setStatusBarDarkMode(boolean darkmode, Activity activity) {
     if (isMiuiV6) {

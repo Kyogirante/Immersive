@@ -4,7 +4,7 @@
             "outputFile": "/Users/wang/WorkPlace/Work/Immersive/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/wang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f96bb758a6acfe261a7c29b61a43d938/res/values-v24/values-v24.xml",
+                    "source": "/Users/wang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/94d01854cff191409bd0c1385011ab88/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
