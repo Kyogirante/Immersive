@@ -1,15 +1,15 @@
-package com.acfun.immersive;
+package com.android.immersive;
 
 import android.app.Activity;
 
-import com.acfun.immersive.impl.ImmersiveFactory;
-import com.acfun.immersive.interfaces.Immersive;
-import com.acfun.immersive.interfaces.ImmersiveAssist;
-import com.acfun.immersive.interfaces.ImmersiveAttribute;
-import com.acfun.immersive.interfaces.ImmersiveBoolean;
-import com.acfun.immersive.interfaces.ImmersiveFontStyle;
-import com.acfun.immersive.interfaces.ImmersiveStatus;
-import com.acfun.immersive.model.DefaultAttribute;
+import com.android.immersive.impl.ImmersiveFactory;
+import com.android.immersive.interfaces.Immersive;
+import com.android.immersive.interfaces.ImmersiveAssist;
+import com.android.immersive.interfaces.ImmersiveAttribute;
+import com.android.immersive.interfaces.ImmersiveBoolean;
+import com.android.immersive.interfaces.ImmersiveFontStyle;
+import com.android.immersive.interfaces.ImmersiveStatus;
+import com.android.immersive.model.DefaultAttribute;
 
 /**
  * 沉浸式处理统一都使用代码处理，不使用主题等xml处理.

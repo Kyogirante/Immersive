@@ -1,4 +1,4 @@
-package com.acfun.immersive.impl;
+package com.android.immersive.impl;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -7,7 +7,7 @@ import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.view.Window;
 
-import com.acfun.immersive.interfaces.Immersive;
+import com.android.immersive.interfaces.Immersive;
 
 /**
  * @author KyoWang

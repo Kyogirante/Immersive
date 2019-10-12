@@ -1,13 +1,12 @@
-package com.acfun.immersive.impl;
+package com.android.immersive.impl;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.os.Build;
 import android.view.View;
 
-import com.acfun.immersive.interfaces.Immersive;
-
-import tv.acfun.immersive.R;
+import com.android.immersive.R;
+import com.android.immersive.interfaces.Immersive;
 
 /**
  * @author KyoWang

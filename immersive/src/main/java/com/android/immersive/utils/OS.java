@@ -1,4 +1,4 @@
-package com.acfun.immersive.utils;
+package com.android.immersive.utils;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

@@ -1,8 +1,8 @@
-package com.acfun.immersive;
+package com.android.immersive;
 
 import android.app.Activity;
 
-import com.acfun.immersive.interfaces.ImmersiveAssist;
+import com.android.immersive.interfaces.ImmersiveAssist;
 
 /**
  * @author KyoWang

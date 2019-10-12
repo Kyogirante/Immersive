@@ -1,4 +1,4 @@
-package com.acfun.immersive.utils;
+package com.android.immersive.utils;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;

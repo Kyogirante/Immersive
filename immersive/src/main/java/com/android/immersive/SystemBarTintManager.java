@@ -1,4 +1,4 @@
-package com.acfun.immersive;
+package com.android.immersive;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

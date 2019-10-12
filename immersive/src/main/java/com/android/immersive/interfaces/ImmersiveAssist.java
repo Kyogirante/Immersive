@@ -1,4 +1,4 @@
-package com.acfun.immersive.interfaces;
+package com.android.immersive.interfaces;
 
 /**
  * @author KyoWang

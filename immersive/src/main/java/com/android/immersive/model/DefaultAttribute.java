@@ -1,4 +1,4 @@
-package com.acfun.immersive.model;
+package com.android.immersive.model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,11 +6,11 @@ import java.util.List;
 import android.support.annotation.ColorRes;
 import android.view.View;
 
-import com.acfun.immersive.interfaces.ImmersiveAssist;
-import com.acfun.immersive.interfaces.ImmersiveAttribute;
-import com.acfun.immersive.interfaces.ImmersiveBoolean;
-import com.acfun.immersive.interfaces.ImmersiveFontStyle;
-import com.acfun.immersive.interfaces.ImmersiveStatus;
+import com.android.immersive.interfaces.ImmersiveAssist;
+import com.android.immersive.interfaces.ImmersiveAttribute;
+import com.android.immersive.interfaces.ImmersiveBoolean;
+import com.android.immersive.interfaces.ImmersiveFontStyle;
+import com.android.immersive.interfaces.ImmersiveStatus;
 
 /**
  * @author KyoWang

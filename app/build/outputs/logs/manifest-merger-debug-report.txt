@@ -4,27 +4,18 @@ ADDED from /Users/wang/WorkPlace/Work/Immersive/app/src/main/AndroidManifest.xml
 INJECTED from /Users/wang/WorkPlace/Work/Immersive/app/src/main/AndroidManifest.xml:2:1-21:12
 INJECTED from /Users/wang/WorkPlace/Work/Immersive/app/src/main/AndroidManifest.xml:2:1-21:12
 INJECTED from /Users/wang/WorkPlace/Work/Immersive/app/src/main/AndroidManifest.xml:2:1-21:12
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/8686072d97b5323036f8100438faa26a/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/wang/.gradle/caches/transforms-2/files-2.1/752c4baf98f15a63b0e904f790d61e2b/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/02cb6c33d50b9ebe1661317170b68711/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/e4331560208018ffdd47a9724e6254e3/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/eab3d4c04d7e95ef7f552eeada03ec98/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/9128fc48eaf977962d6319c163cb791e/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/c6babd63a603fb92c8fdd68b27e4d3f7/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/8ceb795ceeb0e8092e21f3dc8ba1b09b/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/b638f192dfd2d2ab3e0191dde0ef00ba/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/87c26a99f7395867ec3b3f48f07a4a6c/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/ab190c1c55262c107905a70df5160a51/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/1018cf0406e8330fc28e636298b695af/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/ee118a3fe5f95062c318df875640b6d0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/c446d8051275404cf3f6274ebe261ebd/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/646190bdb07d2255dc6c999d259cdbfb/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/84395d1d71cc59ae43ff030f02caf6ba/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/6466a28e24c306fd1304f119dc16c932/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/6e9fb0b81bac90119eb97204351a0ff8/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/34326e2dc7abe2b9dd342ed136b8d4be/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/2d576c3f2147eca231d3c29bafa60ab0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/14311d89b0efddf77d7ff3dc6a1a4538/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/76364baec1936610addeb66934ed684a/AndroidManifest.xml:17:1-22:12
+MERGED from [:immersive] /Users/wang/WorkPlace/Work/Immersive/immersive/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/38790ccbc237e24e488c99752ca1ff9c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/ba8ecc33fb966da5e5c644a8fcbabd49/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/eb456fbea884ddc05261542cca8ac329/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/4457d85372136f393f1ad4649f2a9bce/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/e0417b0971dde47f7f6493de7bd0043a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/92cb6a228854bc35f2656316d2c3ca13/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/6ccbb96d988db368bad04c441cbad0c1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/a5b2dc978be69b0c27b515fd7eee4aa3/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/199ac161bc07e138141c088fe00fb345/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b689aae0eb06f8e8b6e096e4cc4f7d91/AndroidManifest.xml:17:1-22:12
 INJECTED from /Users/wang/WorkPlace/Work/Immersive/app/src/main/AndroidManifest.xml:2:1-21:12
 INJECTED from /Users/wang/WorkPlace/Work/Immersive/app/src/main/AndroidManifest.xml:2:1-21:12
 INJECTED from /Users/wang/WorkPlace/Work/Immersive/app/src/main/AndroidManifest.xml:2:1-21:12
@@ -44,14 +35,6 @@ INJECTED from /Users/wang/WorkPlace/Work/Immersive/app/src/main/AndroidManifest.
 		ADDED from /Users/wang/WorkPlace/Work/Immersive/app/src/main/AndroidManifest.xml:3:3-61
 application
 ADDED from /Users/wang/WorkPlace/Work/Immersive/app/src/main/AndroidManifest.xml:5:3-19:17
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/wang/.gradle/caches/transforms-2/files-2.1/752c4baf98f15a63b0e904f790d61e2b/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/wang/.gradle/caches/transforms-2/files-2.1/752c4baf98f15a63b0e904f790d61e2b/AndroidManifest.xml:9:5-20
-MERGED from [androidx.core:core:1.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/1018cf0406e8330fc28e636298b695af/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/1018cf0406e8330fc28e636298b695af/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/c446d8051275404cf3f6274ebe261ebd/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/c446d8051275404cf3f6274ebe261ebd/AndroidManifest.xml:24:5-25:19
-	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/1018cf0406e8330fc28e636298b695af/AndroidManifest.xml:24:18-86
 	android:supportsRtl
 		ADDED from /Users/wang/WorkPlace/Work/Immersive/app/src/main/AndroidManifest.xml:10:5-31
 	android:label
@@ -82,48 +65,30 @@ uses-sdk
 INJECTED from /Users/wang/WorkPlace/Work/Immersive/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/wang/WorkPlace/Work/Immersive/app/src/main/AndroidManifest.xml
 INJECTED from /Users/wang/WorkPlace/Work/Immersive/app/src/main/AndroidManifest.xml
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/8686072d97b5323036f8100438faa26a/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/8686072d97b5323036f8100438faa26a/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/wang/.gradle/caches/transforms-2/files-2.1/752c4baf98f15a63b0e904f790d61e2b/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/wang/.gradle/caches/transforms-2/files-2.1/752c4baf98f15a63b0e904f790d61e2b/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/02cb6c33d50b9ebe1661317170b68711/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/02cb6c33d50b9ebe1661317170b68711/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/e4331560208018ffdd47a9724e6254e3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/e4331560208018ffdd47a9724e6254e3/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/eab3d4c04d7e95ef7f552eeada03ec98/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/eab3d4c04d7e95ef7f552eeada03ec98/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/9128fc48eaf977962d6319c163cb791e/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/9128fc48eaf977962d6319c163cb791e/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/c6babd63a603fb92c8fdd68b27e4d3f7/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/c6babd63a603fb92c8fdd68b27e4d3f7/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/8ceb795ceeb0e8092e21f3dc8ba1b09b/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/8ceb795ceeb0e8092e21f3dc8ba1b09b/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/b638f192dfd2d2ab3e0191dde0ef00ba/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/b638f192dfd2d2ab3e0191dde0ef00ba/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/87c26a99f7395867ec3b3f48f07a4a6c/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/87c26a99f7395867ec3b3f48f07a4a6c/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/ab190c1c55262c107905a70df5160a51/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/ab190c1c55262c107905a70df5160a51/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/1018cf0406e8330fc28e636298b695af/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/1018cf0406e8330fc28e636298b695af/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/ee118a3fe5f95062c318df875640b6d0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/ee118a3fe5f95062c318df875640b6d0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/c446d8051275404cf3f6274ebe261ebd/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/c446d8051275404cf3f6274ebe261ebd/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/646190bdb07d2255dc6c999d259cdbfb/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/646190bdb07d2255dc6c999d259cdbfb/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/84395d1d71cc59ae43ff030f02caf6ba/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/84395d1d71cc59ae43ff030f02caf6ba/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/6466a28e24c306fd1304f119dc16c932/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/6466a28e24c306fd1304f119dc16c932/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/6e9fb0b81bac90119eb97204351a0ff8/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/6e9fb0b81bac90119eb97204351a0ff8/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/34326e2dc7abe2b9dd342ed136b8d4be/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/34326e2dc7abe2b9dd342ed136b8d4be/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/2d576c3f2147eca231d3c29bafa60ab0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/2d576c3f2147eca231d3c29bafa60ab0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/14311d89b0efddf77d7ff3dc6a1a4538/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/wang/.gradle/caches/transforms-2/files-2.1/14311d89b0efddf77d7ff3dc6a1a4538/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/76364baec1936610addeb66934ed684a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/76364baec1936610addeb66934ed684a/AndroidManifest.xml:20:5-44
+MERGED from [:immersive] /Users/wang/WorkPlace/Work/Immersive/immersive/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [:immersive] /Users/wang/WorkPlace/Work/Immersive/immersive/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/38790ccbc237e24e488c99752ca1ff9c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/38790ccbc237e24e488c99752ca1ff9c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/ba8ecc33fb966da5e5c644a8fcbabd49/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/ba8ecc33fb966da5e5c644a8fcbabd49/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/eb456fbea884ddc05261542cca8ac329/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/eb456fbea884ddc05261542cca8ac329/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/4457d85372136f393f1ad4649f2a9bce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/4457d85372136f393f1ad4649f2a9bce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/e0417b0971dde47f7f6493de7bd0043a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/e0417b0971dde47f7f6493de7bd0043a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/92cb6a228854bc35f2656316d2c3ca13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/wang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/92cb6a228854bc35f2656316d2c3ca13/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/6ccbb96d988db368bad04c441cbad0c1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/6ccbb96d988db368bad04c441cbad0c1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/a5b2dc978be69b0c27b515fd7eee4aa3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/a5b2dc978be69b0c27b515fd7eee4aa3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/199ac161bc07e138141c088fe00fb345/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/199ac161bc07e138141c088fe00fb345/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b689aae0eb06f8e8b6e096e4cc4f7d91/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/wang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b689aae0eb06f8e8b6e096e4cc4f7d91/AndroidManifest.xml:20:5-44
 INJECTED from /Users/wang/WorkPlace/Work/Immersive/app/src/main/AndroidManifest.xml
 INJECTED from /Users/wang/WorkPlace/Work/Immersive/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion

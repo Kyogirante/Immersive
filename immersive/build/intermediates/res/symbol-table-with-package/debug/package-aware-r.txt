@@ -1,0 +1,2 @@
+com.android.immersive
+color immersive_gray

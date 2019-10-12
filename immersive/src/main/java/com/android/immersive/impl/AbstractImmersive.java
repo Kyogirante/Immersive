@@ -1,4 +1,4 @@
-package com.acfun.immersive.impl;
+package com.android.immersive.impl;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import android.app.Activity;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.acfun.immersive.interfaces.Immersive;
-import com.acfun.immersive.utils.SystemDimenUtil;
+import com.android.immersive.interfaces.Immersive;
+import com.android.immersive.utils.SystemDimenUtil;
 
 
 /**

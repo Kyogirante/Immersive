@@ -1,4 +1,4 @@
-package com.acfun.immersive.impl;
+package com.android.immersive.impl;
 
 import java.lang.reflect.Field;
 
@@ -8,7 +8,7 @@ import android.os.Build;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.acfun.immersive.interfaces.Immersive;
+import com.android.immersive.interfaces.Immersive;
 
 /**
  * @author KyoWang

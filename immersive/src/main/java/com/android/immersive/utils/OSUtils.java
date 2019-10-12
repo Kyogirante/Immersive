@@ -1,4 +1,4 @@
-package com.acfun.immersive.utils;
+package com.android.immersive.utils;
 
 import java.io.BufferedReader;
 import java.io.IOException;

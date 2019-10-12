@@ -1,11 +1,11 @@
-package com.acfun.immersive.impl;
+package com.android.immersive.impl;
 
 import android.app.Activity;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.acfun.immersive.SystemBarTintManager;
-import com.acfun.immersive.interfaces.Immersive;
+import com.android.immersive.SystemBarTintManager;
+import com.android.immersive.interfaces.Immersive;
 
 /**
  * @author KyoWang

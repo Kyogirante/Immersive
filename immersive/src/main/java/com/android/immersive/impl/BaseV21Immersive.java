@@ -1,4 +1,4 @@
-package com.acfun.immersive.impl;
+package com.android.immersive.impl;
 
 import android.app.Activity;
 import android.graphics.Color;
@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.acfun.immersive.interfaces.Immersive;
+import com.android.immersive.interfaces.Immersive;
 
 
 /**

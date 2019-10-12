@@ -7,7 +7,7 @@ buildscript {
         
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.4.1'
+        classpath 'com.android.tools.build:gradle:3.2.1'
         classpath 'com.novoda:bintray-release:0.8.0'
     }
 }
@@ -17,6 +17,10 @@ allprojects {
         google()
         jcenter()
         mavenCentral()
+
+        maven {
+            url 'https://dl.bintray.com/kyo/maven'
+        }
     }
 }
 
