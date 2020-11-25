@@ -20,8 +20,6 @@ public final class ImmersiveFactory {
   public static Immersive createImmersiveAssist(Activity activity) {
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
       return createV21ImmersiveAssist(activity);
-    } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-      return createV19ImmersiveAssist(activity);
     } else {
       return Immersive.EMPTY;
     }
@@ -35,16 +33,6 @@ public final class ImmersiveFactory {
       return new FlyMeV21Immersive(activity);
     } else {
       return new CommonV21Immersive(activity);
-    }
-  }
-
-  private static Immersive createV19ImmersiveAssist(Activity activity) {
-    if (OSUtils.isMiui()) {
-      return new MiuiV19Immersive(activity);
-    } else if (OSUtils.isFlyme()) {
-      return new FlyMeV19Immersive(activity);
-    } else {
-      return new CommonV19Immersive(activity);
     }
   }
 

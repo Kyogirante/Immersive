@@ -26,6 +26,13 @@ public interface ImmersiveAttribute {
   int getStatusBarColor();
 
   /**
+   * 导航栏颜色.
+   *
+   * @return 返回色值
+   */
+  int getNavigationBarColor();
+
+  /**
    * fitsSystemWindows属性.
    *
    * @return {@link ImmersiveBoolean}
@@ -48,6 +55,14 @@ public interface ImmersiveAttribute {
    */
   @ImmersiveBoolean
   int getNavigationBarVisible();
+
+  /**
+   * 导航栏图标风格.
+   *
+   * @return {@link ImmersiveFontStyle}
+   */
+  @ImmersiveFontStyle
+  int getNavigationBarFontStyle();
 
   /**
    * 状态栏字体颜色
@@ -113,12 +128,28 @@ public interface ImmersiveAttribute {
     Refresher setStatusBarVisible(@ImmersiveBoolean int visible);
 
     /**
+     * 设置底部导航栏颜色.
+     *
+     * @param colorRes 色值
+     * @return {@link Immersive}
+     */
+    Refresher setNavigationBarColor(@ColorRes int colorRes);
+
+    /**
      * 设置导航栏是否可见，此方法可能会导致页面新
      *
      * @param visible {@link ImmersiveBoolean}
      * @return {@link Refresher}
      */
     Refresher setNavigationBarVisible(@ImmersiveBoolean int visible);
+
+    /**
+     * 底部导航栏图标颜色.
+     *
+     * @param style {@link ImmersiveFontStyle}.
+     * @return {@link Immersive}
+     */
+    Refresher setNavigationBarIconStyle(@ImmersiveFontStyle int style);
 
     /**
      * 设置 StatusBar 状态栏字体颜色

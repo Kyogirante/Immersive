@@ -36,8 +36,13 @@ abstract class BaseV21Immersive extends AbstractImmersive {
     Window window = activity.getWindow();
 
     View decorView = window.getDecorView();
-    decorView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
-        | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
+    if (decorView != null) {
+      int uiOptions = decorView.getSystemUiVisibility();
+      uiOptions |= View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_LAYOUT_STABLE;
+      if (decorView.getSystemUiVisibility() != uiOptions) {
+        decorView.setSystemUiVisibility(uiOptions);
+      }
+    }
 
     window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
     window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
@@ -47,18 +52,44 @@ abstract class BaseV21Immersive extends AbstractImmersive {
   }
 
   @Override
+  public Immersive setNavigationBarColor(int colorRes) {
+    activity.getWindow()
+        .setNavigationBarColor(activity.getResources().getColor(colorRes));
+    return this;
+  }
+
+  @Override
+  public Immersive setNavigationBarIconStyle(boolean isDark) {
+    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+      View decorView = activity.getWindow().getDecorView();
+      if (decorView != null) {
+        int uiOptions = decorView.getSystemUiVisibility();
+        if (isDark) {
+          uiOptions |= View.SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR;
+        } else {
+          uiOptions &= ~View.SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR;
+        }
+        if (decorView.getSystemUiVisibility() != uiOptions) {
+          decorView.setSystemUiVisibility(uiOptions);
+        }
+      }
+    }
+    return this;
+  }
+
+  @Override
   public Immersive setStatusBarFontStyle(boolean isDark) {
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
       View decorView = activity.getWindow().getDecorView();
       if (decorView != null) {
-        int vis = decorView.getSystemUiVisibility();
+        int uiOptions = decorView.getSystemUiVisibility();
         if (isDark) {
-          vis |= View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR;
+          uiOptions |= View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR;
         } else {
-          vis &= ~View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR;
+          uiOptions &= ~View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR;
         }
-        if (decorView.getSystemUiVisibility() != vis) {
-          decorView.setSystemUiVisibility(vis);
+        if (decorView.getSystemUiVisibility() != uiOptions) {
+          decorView.setSystemUiVisibility(uiOptions);
         }
       }
     }

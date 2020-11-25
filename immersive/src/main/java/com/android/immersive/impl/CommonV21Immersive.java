@@ -24,20 +24,18 @@ class CommonV21Immersive extends BaseV21Immersive {
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
       View decorView = activity.getWindow().getDecorView();
       if (decorView != null) {
-        int vis = decorView.getSystemUiVisibility();
+        int uiOptions = decorView.getSystemUiVisibility();
         if (isDark) {
-          vis |= View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR;
+          uiOptions |= View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR;
         } else {
-          vis &= ~View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR;
+          uiOptions &= ~View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR;
         }
-        if (decorView.getSystemUiVisibility() != vis) {
-          decorView.setSystemUiVisibility(vis);
+        if (decorView.getSystemUiVisibility() != uiOptions) {
+          decorView.setSystemUiVisibility(uiOptions);
         }
       }
-    } else {
-      if (isDark) {
-        setStatusBarColor(R.color.immersive_gray);
-      }
+    } else if (isDark) {
+      setStatusBarColor(R.color.immersive_gray);
     }
     return this;
   }

@@ -6,6 +6,7 @@ import java.util.List;
 import android.support.annotation.ColorRes;
 import android.view.View;
 
+import com.android.immersive.interfaces.Immersive;
 import com.android.immersive.interfaces.ImmersiveAssist;
 import com.android.immersive.interfaces.ImmersiveAttribute;
 import com.android.immersive.interfaces.ImmersiveBoolean;
@@ -27,8 +28,14 @@ public class DefaultAttribute implements ImmersiveAttribute {
   @ImmersiveBoolean
   int statusBarVisible = ImmersiveBoolean.NULL;
 
+  @ColorRes
+  int navigationBarColor = 0;
+
   @ImmersiveBoolean
   int navigationBarVisible = ImmersiveBoolean.NULL;
+
+  @ImmersiveFontStyle
+  int navigationBarFontStyle = ImmersiveFontStyle.NULL;
 
   @ImmersiveFontStyle
   int statusBarFontStyle = ImmersiveFontStyle.NULL;
@@ -57,6 +64,11 @@ public class DefaultAttribute implements ImmersiveAttribute {
   }
 
   @Override
+  public int getNavigationBarColor() {
+    return navigationBarColor;
+  }
+
+  @Override
   @ImmersiveBoolean
   public int getFitsSystemWindows() {
     return fitsSystemWindows;
@@ -72,6 +84,11 @@ public class DefaultAttribute implements ImmersiveAttribute {
   @ImmersiveBoolean
   public int getNavigationBarVisible() {
     return navigationBarVisible;
+  }
+
+  @Override
+  public int getNavigationBarFontStyle() {
+    return navigationBarFontStyle;
   }
 
   @ImmersiveFontStyle
@@ -99,8 +116,10 @@ public class DefaultAttribute implements ImmersiveAttribute {
     immersiveStatus = ImmersiveStatus.NO_IMMERSIVE;
     statusBarColor = 0;
     statusBarVisible = ImmersiveBoolean.NULL;
+    navigationBarColor = 0;
     fitsSystemWindows = ImmersiveBoolean.NULL;
     navigationBarVisible = ImmersiveBoolean.NULL;
+    navigationBarFontStyle = ImmersiveFontStyle.NULL;
     statusBarFontStyle = ImmersiveFontStyle.NULL;
     marginViews.clear();
     paddingViews.clear();
@@ -135,13 +154,25 @@ public class DefaultAttribute implements ImmersiveAttribute {
     }
 
     @Override
+    public Refresher setNavigationBarColor(int colorRes) {
+      attribute.navigationBarColor = colorRes;
+      return this;
+    }
+
+    @Override
     public Refresher setNavigationBarVisible(@ImmersiveBoolean int visible) {
       attribute.navigationBarVisible = visible;
       return this;
     }
 
     @Override
-    public Refresher setStatusBarFontStyle(int style) {
+    public Refresher setNavigationBarIconStyle(@ImmersiveFontStyle int style) {
+      attribute.navigationBarFontStyle = style;
+      return this;
+    }
+
+    @Override
+    public Refresher setStatusBarFontStyle(@ImmersiveFontStyle int style) {
       attribute.statusBarFontStyle = style;
       return this;
     }

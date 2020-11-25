@@ -50,6 +50,14 @@ public interface Immersive {
   Immersive setStatusBarVisible(boolean visible);
 
   /**
+   * 设置底部导航栏颜色.
+   *
+   * @param colorRes 色值
+   * @return {@link Immersive}
+   */
+  Immersive setNavigationBarColor(@ColorRes int colorRes);
+
+  /**
    * 底部导航栏是否可见.
    *
    * @param visible 是否可见
@@ -63,9 +71,17 @@ public interface Immersive {
   Immersive realFullScreen();
 
   /**
-   * 设置StatusBar字体颜色,系统23版本之后才支持，miui 和 flyme 单独适配
+   * 底部导航栏图标颜色.
    *
-   * @param isDark 是否黑暗模式可见
+   * @param isDark 是否是黑暗模式.
+   * @return {@link Immersive}
+   */
+  Immersive setNavigationBarIconStyle(boolean isDark);
+
+  /**
+   * 设置StatusBar字体颜色，系统23版本之后才支持，miui 和 flyme 单独适配
+   *
+   * @param isDark 是否是黑暗模式.
    * @return {@link Immersive}
    */
   Immersive setStatusBarFontStyle(boolean isDark);
@@ -124,12 +140,22 @@ public interface Immersive {
     }
 
     @Override
+    public Immersive setNavigationBarColor(int colorRes) {
+      return this;
+    }
+
+    @Override
     public Immersive setNavigationBarVisible(boolean visible) {
       return this;
     }
 
     @Override
     public Immersive realFullScreen() {
+      return this;
+    }
+
+    @Override
+    public Immersive setNavigationBarIconStyle(boolean isDark) {
       return this;
     }
 

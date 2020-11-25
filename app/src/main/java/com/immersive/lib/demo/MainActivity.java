@@ -10,6 +10,8 @@ import com.android.immersive.interfaces.ImmersiveBoolean;
 import com.android.immersive.interfaces.ImmersiveFontStyle;
 import com.android.immersive.interfaces.ImmersiveStatus;
 
+import static android.view.View.*;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
   }
 
   private void initView() {
-    findViewById(R.id.status_bar_hide).setOnClickListener(new View.OnClickListener() {
+    findViewById(R.id.status_bar_hide).setOnClickListener(new OnClickListener() {
       @Override
       public void onClick(View v) {
         int fit = ImmersiveBoolean.TRUE;
@@ -54,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
       }
     });
 
-    findViewById(R.id.status_bar_font_color).setOnClickListener(new View.OnClickListener() {
+    findViewById(R.id.status_bar_font_color).setOnClickListener(new OnClickListener() {
       @Override
       public void onClick(View v) {
         if (fontColor == ImmersiveFontStyle.BLACK) {
@@ -70,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
       }
     });
 
-    findViewById(R.id.full_immersive).setOnClickListener(new View.OnClickListener() {
+    findViewById(R.id.full_immersive).setOnClickListener(new OnClickListener() {
       @Override
       public void onClick(View v) {
         if (immersive) {
@@ -91,12 +93,37 @@ public class MainActivity extends AppCompatActivity {
       }
     });
 
-    findViewById(R.id.status_bar_color).setOnClickListener(new View.OnClickListener() {
+    findViewById(R.id.status_bar_color).setOnClickListener(new OnClickListener() {
       @Override
       public void onClick(View v) {
         immersiveAssist.getAttributeRefresher()
             .setImmersiveStatus(ImmersiveStatus.COLOR_IMMERSIVE)
             .setStatusBarColor(getColorRes())
+            .commit();
+      }
+    });
+
+    findViewById(R.id.navigation_bar_color).setOnClickListener(new OnClickListener() {
+      @Override
+      public void onClick(View v) {
+        immersiveAssist.getAttributeRefresher()
+            .setImmersiveStatus(ImmersiveStatus.OTHER_IMMERSIVE)
+            .setNavigationBarColor(getColorRes())
+            .commit();
+      }
+    });
+
+    findViewById(R.id.navigation_bar_icon_color).setOnClickListener(new OnClickListener() {
+      @Override
+      public void onClick(View v) {
+        if (fontColor == ImmersiveFontStyle.BLACK) {
+          fontColor = ImmersiveFontStyle.WHITE;
+        } else {
+          fontColor = ImmersiveFontStyle.BLACK;
+        }
+        immersiveAssist.getAttributeRefresher()
+            .setImmersiveStatus(ImmersiveStatus.OTHER_IMMERSIVE)
+            .setNavigationBarIconStyle(fontColor)
             .commit();
       }
     });
@@ -115,6 +142,4 @@ public class MainActivity extends AppCompatActivity {
 
     return R.color.colorAccent;
   }
-
-
 }

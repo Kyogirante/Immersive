@@ -57,6 +57,11 @@ final class ImmersiveAssistImpl implements ImmersiveAssist {
       immersive.setStatusBarTranslucent();
     }
 
+    int navigationBarColor = attribute.getNavigationBarColor();
+    if (navigationBarColor != 0) {
+      immersive.setNavigationBarColor(navigationBarColor);
+    }
+
     if (attribute.getStatusBarVisible() == ImmersiveBoolean.TRUE) {
       immersive.setStatusBarVisible(true);
     } else if (attribute.getStatusBarVisible() == ImmersiveBoolean.FALSE) {
@@ -80,6 +85,12 @@ final class ImmersiveAssistImpl implements ImmersiveAssist {
       immersive.setStatusBarFontStyle(false);
     } else if (attribute.getStatusBarFontStyle() == ImmersiveFontStyle.BLACK) {
       immersive.setStatusBarFontStyle(true);
+    }
+
+    if (attribute.getNavigationBarFontStyle() == ImmersiveFontStyle.WHITE) {
+      immersive.setNavigationBarIconStyle(false);
+    } else if (attribute.getNavigationBarFontStyle() == ImmersiveFontStyle.BLACK) {
+      immersive.setNavigationBarIconStyle(true);
     }
 
     immersive.marginViews(attribute.getMarginViews());
