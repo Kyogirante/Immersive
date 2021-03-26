@@ -1,11 +1,10 @@
 package com.android.immersive.utils;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.lang.reflect.Method;
 import java.util.Iterator;
 import java.util.Map;
 
+import android.annotation.SuppressLint;
 import android.os.Build;
 import android.text.TextUtils;
 
@@ -15,13 +14,11 @@ import android.text.TextUtils;
  */
 public class OSUtils {
 
-  private static final int BUFFER_SIZE = 1024;
-
   private static boolean initialized = false;
   private static String romName;
   private static String romVersion;
   private static String romTime; // rom发布时间
-  private static long romTimeVerison = -1; // 一般rom发布时间会是rom具体版本号
+  private static long romTimeVersion = -1; // 一般rom发布时间会是rom具体版本号
 
   public static boolean isEmui() {
     return check(OS.Name.ROM_EMUI);
@@ -48,22 +45,22 @@ public class OSUtils {
   }
 
   public static long getRomTime() {
-    if (romTimeVerison != - 1) {
-      return romTimeVerison;
+    if (romTimeVersion != - 1) {
+      return romTimeVersion;
     }
 
     if (TextUtils.isEmpty(romTime)) {
-      romTimeVerison = 0L;
-      return romTimeVerison;
+      romTimeVersion = 0L;
+      return romTimeVersion;
     }
 
     try {
-      romTimeVerison = Long.valueOf(romTime);
+      romTimeVersion = Long.valueOf(romTime);
     } catch (Exception e) {
       e.printStackTrace();
     }
 
-    return romTimeVerison;
+    return romTimeVersion;
   }
 
   private static String getName() {
@@ -94,9 +91,7 @@ public class OSUtils {
   }
 
   private static void initRomName() {
-
     Iterator<Map.Entry<String, String>> entryIterator = OS.OS_MAP.entrySet().iterator();
-
     while (entryIterator.hasNext()) {
       Map.Entry<String, String> entry = entryIterator.next();
       romVersion = getProp(entry.getKey());
@@ -119,25 +114,16 @@ public class OSUtils {
     }
   }
 
-  private static String getProp(String name) {
-    String line = "";
-    BufferedReader input = null;
+  @SuppressLint("PrivateApi")
+  public static String getProp(String key) {
+    Class<?> clazz;
     try {
-      Process p = Runtime.getRuntime().exec("getprop " + name);
-      input = new BufferedReader(new InputStreamReader(p.getInputStream()), BUFFER_SIZE);
-      line = input.readLine();
-      input.close();
-    } catch (IOException ex) {
-      return "";
-    } finally {
-      if (input != null) {
-        try {
-          input.close();
-        } catch (IOException e) {
-          e.printStackTrace();
-        }
-      }
+      clazz = Class.forName("android.os.SystemProperties");
+      Method method = clazz.getDeclaredMethod("get", String.class);
+      return (String) method.invoke(clazz, key);
+    } catch (Exception e) {
+      e.printStackTrace();
     }
-    return line;
+    return null;
   }
 }

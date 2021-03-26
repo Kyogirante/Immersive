@@ -18,11 +18,11 @@ public final class OS {
   public static final Map<String, String> OS_TIME_MAP = new HashMap<>();
 
   static {
-    OS_MAP.put(VersionKey.KEY_VERSION_MIUI, Name.ROM_MIUI);
     OS_MAP.put(VersionKey.KEY_VERSION_EMUI, Name.ROM_EMUI);
+    OS_MAP.put(VersionKey.KEY_VERSION_MIUI, Name.ROM_MIUI);
+    OS_MAP.put(VersionKey.KEY_VERSION_VIVO, Name.ROM_VIVO);
     OS_MAP.put(VersionKey.KEY_VERSION_OPPO, Name.ROM_OPPO);
     OS_MAP.put(VersionKey.KEY_VERSION_SMARTISAN, Name.ROM_SMARTISAN);
-    OS_MAP.put(VersionKey.KEY_VERSION_VIVO, Name.ROM_VIVO);
   }
 
   static {
