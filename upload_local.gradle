@@ -1,0 +1,22 @@
+apply plugin: 'maven'
+
+//版本号
+def VERSION = '0.0.2.1'
+//公司名称
+def GROUP_ID = GROUO_ID
+//aar包名称
+def ARTIFACT_ID = ARTIFACTI_ID
+
+def URL_PATH = 'file://' + rootProject.rootDir + '/maven'
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: URL_PATH)
+            pom.groupId = GROUP_ID
+            pom.artifactId = ARTIFACT_ID
+            pom.version = VERSION
+            pom.packaging = 'aar'
+        }
+    }
+}
